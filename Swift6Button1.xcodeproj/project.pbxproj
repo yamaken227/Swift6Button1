@@ -13,6 +13,7 @@
 		377B967726041FB80000A7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377B967526041FB80000A7FE /* Main.storyboard */; };
 		377B967926041FBF0000A7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377B967826041FBF0000A7FE /* Assets.xcassets */; };
 		377B967C26041FBF0000A7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377B967A26041FBF0000A7FE /* LaunchScreen.storyboard */; };
+		377B9686260424F40000A7FE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377B9685260424F40000A7FE /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		377B967826041FBF0000A7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377B967B26041FBF0000A7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377B967D26041FBF0000A7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377B9685260424F40000A7FE /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				377B966F26041FB80000A7FE /* AppDelegate.swift */,
 				377B967126041FB80000A7FE /* SceneDelegate.swift */,
 				377B967326041FB80000A7FE /* ViewController.swift */,
+				377B9685260424F40000A7FE /* NextViewController.swift */,
 				377B967526041FB80000A7FE /* Main.storyboard */,
 				377B967826041FBF0000A7FE /* Assets.xcassets */,
 				377B967A26041FBF0000A7FE /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				377B967426041FB80000A7FE /* ViewController.swift in Sources */,
+				377B9686260424F40000A7FE /* NextViewController.swift in Sources */,
 				377B967026041FB80000A7FE /* AppDelegate.swift in Sources */,
 				377B967226041FB80000A7FE /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenta.Swift6Button1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenta.Swift6Button1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
